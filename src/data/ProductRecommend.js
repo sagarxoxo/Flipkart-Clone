@@ -16,7 +16,7 @@ const ProductRecommendData = [
             },
             {
                 productName: "Hair Dryers",
-                productImg: require( '../Images/philips-hp8100-46-original-imaemymzuxrnzfjb.webp'),
+                productImg: require( '../Images/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.webp'),
                 priceOrshop: "From 499₹",
                 brandName: "ZEBRONICS"
             },
@@ -51,7 +51,7 @@ const ProductRecommendData = [
             },
             {
                 productName: "Hair Dryers",
-                productImg: require( '../Images/philips-hp8100-46-original-imaemymzuxrnzfjb.webp'),
+                productImg: require( '../Images/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.webp'),
                 priceOrshop: "From 499₹",
                 brandName: "ZEBRONICS"
             },
@@ -86,7 +86,7 @@ const ProductRecommendData = [
             },
             {
                 productName: "Hair Dryers",
-                productImg: require( '../Images/philips-hp8100-46-original-imaemymzuxrnzfjb.webp'),
+                productImg: require( '../Images/zeb-pixa-play-12-5-6-dobly-audio-led-projector-zebronics-original-imag9z3yujqmzqt4.webp'),
                 priceOrshop: "From 499₹",
                 brandName: "ZEBRONICS"
             },
