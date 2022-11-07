@@ -1,0 +1,98 @@
+.seaction1{
+    background-color: #fff;
+    padding: 20px 80px 20px 80px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryimg{
+    width: 64px;
+    height: 64px;
+}
+
+.catSec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spTitleCat{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.seaction2{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+}
+
+.cardSin{
+    padding: 25px 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.singleRemProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productRecmTitle{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productRecmPrice{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #388e3c;
+    padding-top: 8px;
+}
+
+.productRecmBrandName{
+    opacity: .6;
+    padding-top: 7px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productRecmImg{
+    height: 200px;
+    width: 200px;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 1.38;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bgIN{
+    width: 100%;
+}

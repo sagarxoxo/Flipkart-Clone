@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body{
+  background-color: #f1f3f6 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: #2874f0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .container-fluid{
+  width: 70%;
+  padding-left: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo{
+  width: 75px;
+}
+.serachBarNav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  min-width: 564px;
+}
+.navbar .me-2{
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.btnSearch{
+  justify-content: flex-end;
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginBtn{
+  margin: 0px 40px;
+  text-decoration: none;
+  color: #2874f0 !important;
+  font-weight: 500 !important;
+  background-color: #fff !important;
+  cursor: pointer !important;
+  border-radius: 2px !important;
+  height: 32px !important;
+  padding: 5px 40px !important;
+  border: 1px solid #dbdbdb !important;
+}
+
+.loginBtn a{
+  text-decoration: none;
+}
+
+.spNav{
+  display: flex !important;
+  align-items: center !important;
+  line-height: 20px !important;
+  font-size: 16px !important;
+  letter-spacing: .1px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  position: relative !important;
+  margin-right: 5px;
+}
+
+.cartBtn{
+  background-color: #2874f0 !important;
+  border: 0px !important;
+  color: #fff;
+  font-size: 16px !important;
+  letter-spacing: .1px !important;
+  font-weight: 500 !important;
 }
